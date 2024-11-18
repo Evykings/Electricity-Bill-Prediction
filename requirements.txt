@@ -25,9 +25,9 @@ binaryornot==0.4.4
 black==24.8.0
 bleach==6.1.0
 blinker==1.8.2
-Brotli @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_27zk0eqdh0/croot/brotli-split_1714483157007/work
+Brotli 
 cachetools==5.5.0
-certifi @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_0ecs_ou28u/croot/certifi_1725551740278/work/certifi
+certifi 
 cffi==1.17.1
 chardet==5.2.0
 charset-normalizer @ file:///croot/charset-normalizer_1721748349566/work
@@ -115,7 +115,7 @@ nbformat==5.10.4
 nest-asyncio==1.6.0
 notebook==7.2.2
 notebook_shim==0.2.4
-numpy @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_f9f5xs2fx0/croot/numpy_and_numpy_base_1682520577456/work
+numpy
 numpydoc==1.7.0
 openpyxl @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_96hhik4ygv/croot/openpyxl_1721752931204/work
 overrides==7.7.0
@@ -151,10 +151,10 @@ pylint==3.2.7
 pylint-venv==3.0.4
 pyls-spyder==0.4.0
 PyNaCl==1.5.0
-pyobjc-core==10.3.1
-pyobjc-framework-Cocoa==10.3.1
-pyobjc-framework-CoreServices==10.3.1
-pyobjc-framework-FSEvents==10.3.1
+#pyobjc-core==10.3.1
+#pyobjc-framework-Cocoa==10.3.1
+#pyobjc-framework-CoreServices==10.3.1
+#pyobjc-framework-FSEvents==10.3.1
 pyparsing==3.1.4
 PyQt5==5.15.11
 PyQt5-Qt5==5.15.15
