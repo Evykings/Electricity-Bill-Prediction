@@ -52,17 +52,14 @@ The dataset underwent a thorough cleaning process to ensure data quality and pre
 
 ## 📊 EDA
   **Data Visualization:**
-Histograms and Density Plots: Analyzed the distribution of numerical features, identifying skewness and outliers.
-Bar Charts and Pie Charts: Explored categorical variables like Tariff Classes and Updated DSS Names to understand their frequency and composition.
-Scatter Plots: Examined relationships between Energy Charges, Current Reading, and Previous Reading.
-Correlation Analysis:
-Computed a correlation matrix to identify relationships between features, highlighting those most relevant for predicting Billed Amount.
-Visualized correlations using a heatmap to detect strong positive or negative associations. 
-
-![alt text](https://github.com/Evykings/Prediction-of-Elderly-Falls/blob/main/images/Distribution%20of%20HRV.png)
-![alt text](https://github.com/Evykings/Prediction-of-Elderly-Falls/blob/main/images/Distribution%20of%20SpO2.png)
-![alt text](https://github.com/Evykings/Prediction-of-Elderly-Falls/blob/main/images/Distribution%20of%20Sugar%20Level.png)
-![alt text](https://github.com/Evykings/Prediction-of-Elderly-Falls/blob/main/images/correlation%20Heatmap.png)
+   * **Histograms and Density Plots:** Analyzed the distribution of numerical features, identifying skewness and outliers.
+     ![alt text](https://github.com/Evykings/Prediction-of-Elderly-Falls/blob/main/images/Distribution%20of%20HRV.png)
+   * **Bar Charts:** Explored categorical variables like Tariff Classes, Energy Charges, Previous Payments and Global Accounts to understand their frequency and composition.
+     ![alt text](https://github.com/Evykings/Prediction-of-Elderly-Falls/blob/main/images/Distribution%20of%20HRV.png)
+   * **Scatter Plots:** Examined relationships between Energy Charges, Current Reading, and Previous Reading.
+     ![alt text](https://github.com/Evykings/Prediction-of-Elderly-Falls/blob/main/images/Distribution%20of%20HRV.png)
+   * **Correlation Analysis:** Computed a correlation matrix to identify relationships between features, highlighting those most relevant for predicting Billed Amount. Visualized      correlations using a heatmap to detect strong positive or negative associations.
+     ![alt text](https://github.com/Evykings/Prediction-of-Elderly-Falls/blob/main/images/Distribution%20of%20HRV.png)
 
 
 ## ⚙️ Model Building 
