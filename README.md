@@ -65,22 +65,27 @@ The dataset underwent a thorough cleaning process to ensure data quality and pre
 
 ## ⚙️ Model Building 
 
-The predictive modeling phase of this project focused on using Stochastic Gradient Descent Classifier (SGDClassifier), a fast and efficient linear classifier for large-scale datasets. Below are the key steps involved in training and optimizing the model:
+To predict electricity bills accurately, several machine learning models were developed, trained, and evaluated using the cleaned dataset. The process involved feature selection, hyperparameter tuning, and performance evaluation to identify the best model.
 
-**1.**  **Baseline Model**
-The initial model was trained with default parameters to establish a baseline performance.
-Basic metrics like accuracy, precision, recall, and F1-score were used to evaluate the baseline.
+###Steps in Model Building:
 
-**2.**  **Hyperparameter Tuning**
-**Objective:** Optimize the performance of the SGDClassifier by tuning key hyperparameters such as:
-  *  Learning rate  ```(eta0)``` 
-  *  Regularization parameter  ```(alpha)``` 
-  *  Loss function  ```(hinge)```
-  *  Number of iterations  ```(max_iter)```
+**1.**  **Data Splitting:**
+The dataset was split into training (80%) and testing (20%) sets to evaluate the model's generalization ability.
 
-**Approach:**
-Leveraged Grid Search Cross-Validation (GridSearchCV) to perform an exhaustive search over hyperparameter combinations.
-Used a stratified k-fold cross-validation approach to ensure robust performance evaluation and prevent overfitting.
+**2.**  **Feature Engineering:**
+*  Selected key features such as ```Previous Payment``` , ```Previous Reading``` ,```Current Reading``` , ```Tariff Classes``` , and ```Energy Charges```.
+*  Normalized numerical features to standardize scales.
+
+**3.**  **Model Selection:**
+The SGDRegressor (Stochastic Gradient Descent Regressor) was chosen as the primary model for this project due to its ability to handle large datasets efficiently and its suitability for linear regression tasks with regularization options.
+
+**4**  **Hyperparameter Tuning:**
+Used grid search and cross-validation to optimize parameters for the best-performing models.
+
+  **Objective:** Optimize the performance of the SGDClassifier by tuning key hyperparameters such as:
+  *  Learning rate  ```0.000001```, ```0.00001```, ```0.0001```, ```0.0002```, ```0.0005```, ```0.0007```
+    
+  **Approach:** Leveraged Grid Search Cross-Validation (GridSearchCV) to perform an exhaustive search over hyperparameter combinations. Used a stratified k-fold cross-validation approach to ensure robust performance evaluation and prevent overfitting.
 
 ## 💡Model performance
 The model was evaluated using the following metrics to assess its effectiveness in predicting falls:
