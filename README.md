@@ -43,7 +43,7 @@ The Electricity Bill Prediction project is a data-driven solution designed to es
 ## 🧹✨ Data Cleaning
 The dataset underwent a thorough cleaning process to ensure data quality and prepare it for analysis and model training. Below is a description of the key steps in the cleaning stage:
 
-### Key Steps in Data Cleaning:###
+### 🔑 Key Steps in Data Cleaning:
 *  **Handling Missing Values:** Missing values were identified and addressed to maintain dataset integrity. Imputation was used to fill in missing values based on statistical methods, ensuring that no critical data points were lost.
 *  **Removing Duplicates:** Duplicate rows were identified and dropped to eliminate redundancy and avoid bias in the analysis.
 *  **Feature Engineering:** A new feature was engineered by calculating the median of each column. The calculated medians served as a baseline for comparison, enabling more meaningful analysis and insights. 
@@ -60,7 +60,7 @@ The dataset underwent a thorough cleaning process to ensure data quality and pre
    * **Scatter Plots:** Examined relationships between Energy Charges, Current Reading, and Previous Reading.
      ![alt text](https://github.com/Evykings/Electricity-Bill-Prediction/blob/main/scatter%20plot%20of%20energy%20charge%20vs%20billed%20amount.png)
    * **Correlation Analysis:** Computed a correlation matrix to identify relationships between features, highlighting those most relevant for predicting Billed Amount. Visualized      correlations using a heatmap to detect strong positive or negative associations.
-     ![alt text](https://github.com/Evykings/Prediction-of-Elderly-Falls/blob/main/images/Distribution%20of%20HRV.png)
+     ![alt text](https://github.com/Evykings/Electricity-Bill-Prediction/blob/main/heatmap.png)
 
 
 ## ⚙️ Model Building 
