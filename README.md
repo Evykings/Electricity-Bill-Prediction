@@ -29,7 +29,7 @@ The Electricity Bill Prediction project is a data-driven solution designed to es
 *    **Source:**  The dataset for this project was sourced from an Electricity Distribution Company, providing real-world insights into energy usage and billing patterns. It includes detailed records of electricity consumption, billing amounts, customer profiles, and other relevant factors over a specified time period.
 *    **Description:** The dataset used in this project is a comprehensive collection of electricity consumption and billing information provided by an Electricity Distribution Company. It contains detailed records essential for predicting electricity bills and analyzing consumption patterns. It has 35189 rows and 12 columns. Below is an overview of the key columns in the dataset:
 
-### Dataset Columns:###
+### Dataset Columns:
 *  **GlobalAccountNames:** Unique identifiers for customer accounts.
 *  **CAP:** The maximum amount that energy suppliers can charge for each unit of energy and standing charge for customers on a standard variable tariff.
 *  **Billed Amount:** The total amount billed to the customer during a billing cycle.
@@ -53,7 +53,7 @@ The dataset underwent a thorough cleaning process to ensure data quality and pre
 ## 📊 EDA
   **Data Visualization:**
    * **Histograms and Density Plots:** Analyzed the distribution of numerical features, identifying skewness and outliers.
-     ![alt text](https://github.com/Evykings/Prediction-of-Elderly-Falls/blob/main/images/Distribution%20of%20HRV.png)
+     ![alt text](https://github.com/Evykings/Electricity-Bill-Prediction/blob/b0b8b9d66027362622fdc2a6cf380f2608dc2573/bedc%20tariff%20class%20dis.png)
    * **Bar Charts:** Explored categorical variables like Tariff Classes, Energy Charges, Previous Payments and Global Accounts to understand their frequency and composition.
      ![alt text](https://github.com/Evykings/Prediction-of-Elderly-Falls/blob/main/images/Distribution%20of%20HRV.png)
    * **Scatter Plots:** Examined relationships between Energy Charges, Current Reading, and Previous Reading.
