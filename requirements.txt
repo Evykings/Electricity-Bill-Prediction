@@ -34,7 +34,7 @@ defusedxml==0.7.1
 diff-match-patch==20200713
 dill==0.3.4
 distlib==0.3.1
-docutils==0.17.1
+docutils==24.3.1
 entrypoints==0.4
 executing==0.8.3
 flake8==4.0.1
