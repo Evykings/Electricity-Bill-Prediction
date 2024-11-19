@@ -58,7 +58,7 @@ The dataset underwent a thorough cleaning process to ensure data quality and pre
      ![alt text](https://github.com/Evykings/Electricity-Bill-Prediction/blob/main/energy%20charge%20vs%20tariff.png)
      ![alt text](https://github.com/Evykings/Electricity-Bill-Prediction/blob/main/previous%20payment%20vs%20billed%20amount.png)
    * **Scatter Plots:** Examined relationships between Energy Charges, Current Reading, and Previous Reading.
-     ![alt text](https://github.com/Evykings/Prediction-of-Elderly-Falls/blob/main/images/Distribution%20of%20HRV.png)
+     ![alt text](https://github.com/Evykings/Electricity-Bill-Prediction/blob/main/scatter%20plot%20of%20energy%20charge%20vs%20billed%20amount.png)
    * **Correlation Analysis:** Computed a correlation matrix to identify relationships between features, highlighting those most relevant for predicting Billed Amount. Visualized      correlations using a heatmap to detect strong positive or negative associations.
      ![alt text](https://github.com/Evykings/Prediction-of-Elderly-Falls/blob/main/images/Distribution%20of%20HRV.png)
 
