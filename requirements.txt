@@ -62,7 +62,7 @@ httpx==0.27.2
 idna==3.10
 imageio==2.35.1
 imagesize==1.4.1
-imbalanced-learn @ file:///home/conda/feedstock_root/build_artifacts/imbalanced-learn_1728063863984/work
+imbalanced-learn
 importlib_metadata==8.5.0
 importlib_resources==6.4.5
 inflection==0.5.1
@@ -78,7 +78,7 @@ jaraco.functools==4.1.0
 jedi==0.19.2
 jellyfish==1.1.0
 Jinja2==3.1.4
-joblib @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_8ff7uji0v2/croot/joblib_1718217225309/work
+joblib 
 json5==0.9.28
 jsonpointer==3.0.0
 jsonschema==4.23.0
@@ -117,9 +117,9 @@ notebook==7.2.2
 notebook_shim==0.2.4
 numpy
 numpydoc==1.7.0
-openpyxl @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_96hhik4ygv/croot/openpyxl_1721752931204/work
+openpyxl 
 overrides==7.7.0
-packaging @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_81ri4yfpjw/croot/packaging_1720101866878/work
+packaging 
 pandas==2.0.3
 pandocfilters==1.5.1
 parso==0.8.4
