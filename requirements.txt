@@ -131,6 +131,7 @@ QtPy==2.0.1
 requests==2.27.1
 rope==0.23.0
 Rtree==0.9.7
+setuptools>=42
 semver==2.13.0
 Send2Trash==1.8.0
 six==1.16.0
