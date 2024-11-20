@@ -95,7 +95,7 @@ The model was evaluated using the Root Mean Square Error to predict the Billed A
 **RMSE:** 8.010851941508868e+26
 
 **Scatter plot of predictions**
-![alt text](https://github.com/Evykings/Prediction-of-Elderly-Falls/blob/main/images/fall.png)
+![alt text](https://github.com/Evykings/Electricity-Bill-Prediction/blob/main/scatter%20plot%20of%20ML%20model.png)
 
 
 
