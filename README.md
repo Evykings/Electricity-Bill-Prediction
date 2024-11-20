@@ -67,7 +67,7 @@ The dataset underwent a thorough cleaning process to ensure data quality and pre
 
 To predict electricity bills accurately, several machine learning models were developed, trained, and evaluated using the cleaned dataset. The process involved feature selection, hyperparameter tuning, and performance evaluation to identify the best model.
 
-###Steps in Model Building:
+### Steps in Model Building:
 
 **1.**  **Data Splitting:**
 The dataset was split into training (80%) and testing (20%) sets to evaluate the model's generalization ability.
@@ -79,27 +79,23 @@ The dataset was split into training (80%) and testing (20%) sets to evaluate the
 **3.**  **Model Selection:**
 The SGDRegressor (Stochastic Gradient Descent Regressor) was chosen as the primary model for this project due to its ability to handle large datasets efficiently and its suitability for linear regression tasks with regularization options.
 
-**4**  **Hyperparameter Tuning:**
+**4.**  **Hyperparameter Tuning:**
 Used grid search and cross-validation to optimize parameters for the best-performing models.
 
   **Objective:** Optimize the performance of the SGDClassifier by tuning key hyperparameters such as:
-  *  Learning rate  ```0.000001```, ```0.00001```, ```0.0001```, ```0.0002```, ```0.0005```, ```0.0007```
+  *  Learning rate  ```0.000001```, ```0.00001```, ```0.0001```, ```0.0002```, ```0.0005```, ```0.0007```.
     
   **Approach:** Leveraged Grid Search Cross-Validation (GridSearchCV) to perform an exhaustive search over hyperparameter combinations. Used a stratified k-fold cross-validation approach to ensure robust performance evaluation and prevent overfitting.
 
 ## 💡Model performance
-The model was evaluated using the following metrics to assess its effectiveness in predicting falls:
+The model was evaluated using the Root Mean Square Error to predict the Billed Amount:
 
-* **Accuracy:** Percentage of correctly classified instances.
-* **Precision:** Ability to minimize false positives (important for fall prediction).
-* **Recall (Sensitivity):** Ability to correctly identify actual falls.
-* **F1-Score:** Balance between precision and recall.
+*  **Root Mean Squared Error (RMSE):** Penalizes large errors more heavily, giving insight into model robustness.
 
-The result from the models classification is shown below:
+**RMSE:** 8.010851941508868e+26
+
+**Scatter plot of predictions**
 ![alt text](https://github.com/Evykings/Prediction-of-Elderly-Falls/blob/main/images/fall.png)
-
-The confusion matrix for the classification is show below:
-![alt text](https://github.com/Evykings/Prediction-of-Elderly-Falls/blob/main/confusion%20matrix%20.png?raw=true)
 
 
 
