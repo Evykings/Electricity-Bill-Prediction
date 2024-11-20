@@ -1,5 +1,5 @@
 # Electricity Bill Prediction ⚡️🏠📉 
-Welcome to the **Electricity Bill Prediction** This project leverages machine learning to predict monthly electricity bills based on factors such as energy consumption, previous reading, and historical data. By analyzing user-specific data, it provides actionable insights to help optimize energy usage and reduce costs.
+Welcome to the **Electricity Bill Prediction**. This project leverages machine learning to predict monthly electricity bills based on factors such as energy consumption, previous reading, and historical data. By analyzing user-specific data, it provides actionable insights to help optimize energy usage and reduce costs.
 
 
 # 📌 Project Overview
